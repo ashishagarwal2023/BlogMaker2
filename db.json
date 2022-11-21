@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "name": "Lorem ipsum dolor",
+      "smalldesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tincidunt odio. Pellentesque blandit dolor ac pulvinar rutrum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Phasellus non fermentum risus, ut efficitur orci. Vestibulum vehicula non nunc nec aliquam. Quisque ac lacinia tortor. Nam at enim ornare, mattis elit ut, aliquet magna. Phasellus pharetra vel mi quis commodo. Aenean vel nulla odio. Praesent facilisis lorem at lorem auctor accumsan. Proin eu rhoncus turpis, a blandit mauris. Aliquam imperdiet dui enim, et pharetra sapien placerat ut.",
+      "posted": "21 November 2022",
+      "id": "2"
+    },
+    {
+      "name": "The second post.",
+      "smalldesc": "Try testing the pagination and see how it works!",
+      "desc": "Down below are the pagination buttons, try them!",
+      "posted": "20 November 2022",
+      "id": "1"
+    },
+    {
+      "name": "Welcome to your new blog!",
+      "smalldesc": "This blog was made by Ashish Agarwal and the theme was by Steve Smith.",
+      "desc": "Hey, welcome to your new blog!\n\nThis is not quiet, but a simple blog that you can use as your own blog.\nThis blog was made by Ashish Agarwal and the Theme was made by Steve Smith.\n\nDo you like this theme? You can customize this blog to your personal! Click here to check it out!\n\nSee you in next posts.",
+      "posted": "09 August 2022",
+      "id": "0"
+    }
+  ]
+}
