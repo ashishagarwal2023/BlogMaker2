@@ -1,17 +1,19 @@
-var xmlhttp = new XMLHttpRequest();
-var url = "/db.json";
+var xmlhttp2 = new XMLHttpRequest();
+var url = "../db.json";
 
-xmlhttp.onerror = function(){
+xmlhttp2.onerror = function(error){
+    error.preventDefault();
     document.getElementById("post").innerHTML = "Failed to load article.";
+    console.error("Failed to load article:",error);
 };
 
-xmlhttp.onreadystatechange = function() {
-    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-        detailPost(xmlhttp.responseText);
+xmlhttp2.onreadystatechange = function() {
+    if (xmlhttp2.readyState == 4 && xmlhttp2.status == 200) {
+        detailPost(xmlhttp2.responseText);
     }
 }
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
+xmlhttp2.open("GET", url, true);
+xmlhttp2.send();
 
 function detailPost(response) {
     var obj = JSON.parse(response);

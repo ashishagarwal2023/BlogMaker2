@@ -1,9 +1,3 @@
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", function() {
-    navigator.serviceWorker.register("/serviceWorker.js");
-  })
-}
-
 fixScale = function(doc) {    
     var addEvent = 'addEventListener',
       type = 'gesturestart',

@@ -1,10 +1,12 @@
 window.onload = function(){
     var xmlhttp = new XMLHttpRequest();
-    var url = "/db.json";
+    var url = "../db.json";
     var posts = document.getElementById("posts");
 
-    xmlhttp.onerror = function(){
+    xmlhttp.onerror = function(error){
+        error.preventDefault();
         posts.innerHTML = "Failed to load posts.";
+        console.error("Failed to load posts.",error);
     };
 
     xmlhttp.onreadystatechange = function() {
